@@ -1,0 +1,40 @@
+{
+    "careers": [
+        {
+            "id": 1,
+            "title": "Software Engineer",
+            "salary": 50000,
+            "location": "San Francisco, CA"
+        },
+        {
+            "id": 2,
+            "title": "Plubmer",
+            "salary": 40000,
+            "location": "Browser's Castle"
+        },
+        {
+            "id": 3,
+            "title": "Gym Engineer",
+            "salary": 80000,
+            "location": "Kanto Region"
+        },
+        {
+            "id": 4,
+            "title": "Vue dev",
+            "salary": 90000,
+            "location": "Lagos"
+        },
+        {
+            "id": 5,
+            "title": "UI/UX",
+            "salary": 30000,
+            "location": "Jigawa"
+        },
+        {
+            "id": 6,
+            "title": "Backend Engineer",
+            "salary": 75000,
+            "location": "Oyo"
+        }
+    ]
+}

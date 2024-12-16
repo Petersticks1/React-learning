@@ -77,6 +77,7 @@ main {
 .help-layout nav a:hover {
     border-color: var(--primary);
 }
+
 .help-layout nav a.active {
     background: var(--primary);
 }
@@ -112,4 +113,37 @@ form textarea {
 
 form label span {
     margin-bottom: 10px;
+}
+
+
+/* careers list */
+
+.careers>a {
+    display: block;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 4px;
+    margin: 20px 0;
+    text-decoration: none;
+}
+
+.careers>a p:hover {
+    color:var(--primary);
+}
+
+.careers p {
+    margin: 0;
+}
+
+.careers>a p:last-child {
+    font-size: 0.8em;
+    color: #bbb;
+}
+
+
+.career-details{
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 4px;
+    margin: 20px 0;
 }
