@@ -1,4 +1,4 @@
-@import url();
+/* @import url(); */
 
 :root {
     --primary: #bc4123;
@@ -115,10 +115,9 @@ form label span {
     margin-bottom: 10px;
 }
 
-
 /* careers list */
 
-.careers>a {
+.careers > a {
     display: block;
     background: rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -127,23 +126,72 @@ form label span {
     text-decoration: none;
 }
 
-.careers>a p:hover {
-    color:var(--primary);
+.careers > a p:hover {
+    color: var(--primary);
 }
 
 .careers p {
     margin: 0;
 }
 
-.careers>a p:last-child {
+.careers > a p:last-child {
     font-size: 0.8em;
     color: #bbb;
 }
 
-
-.career-details{
+.career-details {
     background: rgba(0, 0, 0, 0.2);
     padding: 20px;
     border-radius: 4px;
     margin: 20px 0;
+}
+
+/* breadcrumbs */
+.breadcrumbs {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.breadcrumbs > * {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.breadcrumbs .crumb::after {
+    content: ">";
+    margin-left: 10px;
+}
+
+.breadcrumbs .crumb:last-child:after {
+    display: none;
+}
+
+.breadcrumbs .crumb a {
+    color: #ddd;
+}
+
+/* //Pagination css// */
+.news {
+    max-width: 600px;
+    /* margin: 0 auto; */
+    padding: 50px 10px;
+    width: 100%;
+}
+
+.news-item {
+    background-color: black;
+    border: 1px solid #ccc;
+    max-width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.paginate .prev {
+    margin-right: 15px;
+}
+
+.paginate {
+    /* text-align: center; */
+    margin: 0 10px;
 }
